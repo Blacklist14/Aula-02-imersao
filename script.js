@@ -49,11 +49,11 @@ function certo(){
         if(nomex.length){
             if(nomex.toLowerCase() == pokemons[numero].nome.toLowerCase()){
                 rex.innerHTML="Acertou meu chapa!!"
-                rex.style.backgroundImage = "url(/img/d575eb6b1eab9a45-.gif)"
+                rex.style.backgroundImage = "url(img/d575eb6b1eab9a45-.gif)"
             }
             else{
                 rex.innerHTML="ERROUUUUUUUUUU!!"
-                rex.style.backgroundImage = "url(/img/c97475272c3bc82d75657420a82ebb8eee9ce069_00.gif)"
+                rex.style.backgroundImage = "url(img/c97475272c3bc82d75657420a82ebb8eee9ce069_00.gif)"
             }
         }
 }
